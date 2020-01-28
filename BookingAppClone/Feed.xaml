@@ -1,8 +1,29 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="BookingAppClone.Feed">
-    <ContentPage.Content>
-        <StackLayout><Label Text="hola"></Label>
-        <Button x:Name="SearchButton" Text="Search" Clicked="SearchButton_Clicked" />
+<TabbedPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="BookingAppClone.Feed">
+    <ContentPage Title="🏨 Alojamiento">
+        <StackLayout>
+            <Label Text="Hola, DIEGO" FontSize="24" HorizontalOptions="Start" FontAttributes="Bold" TextColor="Black" Margin="5,0,0,0"></Label>
+            <Label Text="Busca por destino/nombre del alojamiento" FontSize="14" HorizontalOptions="Start" TextColor="Black" Margin="5,0,0,0"></Label>
+
+            <StackLayout Margin="18,18,18,200" BackgroundColor="#ffcc00">
+            <TableView Intent="Form" BackgroundColor="White" Margin="2">
+                <TableRoot>
+                    <TableSection>
+                        <EntryCell Text="Pionyang" LabelColor="White" Label="🔎"/>
+                        <EntryCell Text="" LabelColor="White" Label="🗓"/>
+                        <EntryCell Text="1 habitación . 2 adultos . 0 niños" LabelColor="White" Label="🤷🏻‍♂️"/>
+                        <ViewCell>
+                            <Button x:Name="SearchButton" Text="Buscar" Clicked="SearchButton_Clicked" BackgroundColor="#33ccff" TextColor="White"/>
+                        </ViewCell>
+                        <SwitchCell Text="Viajo por trabajo"/>
+                    </TableSection>
+                </TableRoot>
+            </TableView>
+            </StackLayout>
         </StackLayout>
-    </ContentPage.Content>
-</ContentPage>
+    </ContentPage>
+  <ContentPage Title="🚙 Alquiler de coches">
+        <Label Text="Not implemented jet"></Label>
+    </ContentPage>
+    
+</TabbedPage>
