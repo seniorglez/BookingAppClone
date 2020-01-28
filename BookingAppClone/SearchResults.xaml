@@ -1,8 +1,55 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="BookingAppClone.SearchResults">
     <ContentPage.Content>
-        <StackLayout>
-            <Label Text="Hola"/>
+        <StackLayout BackgroundColor="LightGray">
+            <StackLayout Orientation="Horizontal">
+                <Button Text="Ordenar" BackgroundColor="White" HorizontalOptions="FillAndExpand"/>
+                <Button Text="Filtro" BackgroundColor="White" HorizontalOptions="FillAndExpand"/>
+                <Button Text="Mapa" BackgroundColor="White" HorizontalOptions="FillAndExpand"/>
+            </StackLayout>
+            <StackLayout BackgroundColor="White" Margin="5" Padding="35,14,0,17" Orientation="Horizontal">
+                <StackLayout Margin="0,0,95,0">
+                    <Label Text="📍 Pionyang" FontSize="22" TextColor="Black" FontAttributes="Bold"/>
+                    <Label Text="2 adultos"/>
+                    <Label Text="5 noches"/>
+                    <Label Text="(vie.,21 febrero - mié., 26 febrero)"/>
+                    <Label Text="Viaje de trabajo"/>
+                </StackLayout>
+                <Label Text="🔎" VerticalOptions="Center" HorizontalOptions="End" FontSize="35"></Label>
+                
+            </StackLayout>
+            <ScrollView Padding="0">
+                <StackLayout Margin="5" Padding="0">
+                    <StackLayout BackgroundColor="White" Margin="0" Padding="0" Orientation="Horizontal">
+                        
+                            <Image Source="https://media-cdn.tripadvisor.com/media/photo-w/0d/bc/ee/32/pyongyang-hotel-pyongyang.jpg" HorizontalOptions="Start" VerticalOptions="FillAndExpand" WidthRequest="170"/>
+                        <StackLayout>
+                            <Label Text="Hotel Pionyang" FontSize="22" HorizontalOptions="Start" FontAttributes="Bold" TextColor="Black" Margin="5,14,0,0"/>
+                            <Label Text="⭐️⭐️⭐️⭐️⭐️"/>
+                            <StackLayout Orientation="Horizontal">
+                                <Frame CornerRadius="10" Padding="0" IsClippedToBounds="True" >
+                                    <Label Text="10,0" BackgroundColor="BlueViolet" TextColor="White" Padding="3"/>
+                                </Frame>
+                                <Label Text="Excelente"/>
+                            </StackLayout>
+                            <Label Text="📍 Pionyang * A 1,6 km del centro"/>
+                            <Frame CornerRadius="10" Padding="0" IsClippedToBounds="True">
+                                <Label Text="Precio para móvil" BackgroundColor="#ff9900" TextColor="White" FontSize="16" Padding="7"/>
+                            </Frame>
+                            <Label Text="Habitación Doble Deluxe - 2" HorizontalOptions="End"/>
+                            <Label Text="camas" HorizontalOptions="End"/>
+                            <Label Text="€ 525" FontSize="24" TextColor="Black" FontAttributes="Bold" HorizontalOptions="End"/>
+                            <Label Text="icluye impuestos y cargos" HorizontalOptions="End"/>
+                            <Label Text="Only 3 like this lef on" HorizontalOptions="End" TextColor="Red"/>
+                            <Label Text="Booking.com!" HorizontalOptions="End" TextColor="Red"/>
+                            <Label Text="Cancelación GRATUITA" HorizontalOptions="End"/>
+                            <Label Text="sin pago por adelantado" HorizontalOptions="End"/>
+                            <Label Text="" HorizontalOptions="End"/>
+                            </StackLayout>
+                        
+                    </StackLayout>
+                </StackLayout>
+            </ScrollView>
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>
