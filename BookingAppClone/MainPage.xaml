@@ -6,8 +6,16 @@
 <MasterDetailPage.Master>
    <ContentPage Title="Menu" BackgroundColor="Azure" Padding="0,40,0,0" >
        <StackLayout>
-           <Label Text="Diego Dominguez Gonzalez"/>
-           <Label Text="El que la parte"/>
+   <StackLayout Padding="8,8,8,8" Orientation="Horizontal">
+                    <Frame CornerRadius="27.5" Padding="0" IsClippedToBounds="True">
+                        <Image Source="user.png" HeightRequest="55" WidthRequest="55"/>
+                    </Frame>
+
+                    <StackLayout Orientation="Vertical" Spacing="1" VerticalOptions="Center" Margin="5,0,0,0">
+                        <Label Text="DIEGO DOMÍNGUEZ GONZÁLEZ" FontSize="14" FontAttributes="Bold"/>
+                        <Label Text="El que la parte, el humilde" TextColor="#0046c3" FontAttributes="Bold"/>
+                    </StackLayout>
+                </StackLayout>
             <ListView BackgroundColor="White" x:Name="ListMenu" ItemSelected="ItemSelectedListMenu">
                 <ListView.ItemTemplate>
                     <DataTemplate>
