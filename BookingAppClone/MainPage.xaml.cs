@@ -20,17 +20,17 @@ namespace BookingAppClone
             Detail = new Feed();
             List<Menu> menus = new List<Menu>
             {
-                new Menu{Page=new Feed(), MenuTitle="Reservas", icon="magnifier.png"},
-                new Menu{Page=new Feed(), MenuTitle="Ofertas", icon="magnifier.png"},
-                new Menu{Page=new Feed(), MenuTitle="Listas", icon="magnifier.png"},
-                new Menu{Page=new Feed(), MenuTitle="Alquiler de coches", icon="magnifier.png"},
-                new Menu{Page=new Feed(), MenuTitle="My reviews", icon="magnifier.png"},
-                new Menu{Page=new Feed(), MenuTitle="Reservar taxi eropuerto", icon="magnifier.png"},
-                new Menu{Page=new Feed(), MenuTitle="Comunidades de viajeros", icon="magnifier.png"},
-                new Menu{Page=new Feed(), MenuTitle="Articulos de viajes", icon="magnifier.png"},
-                new Menu{Page=new Feed(), MenuTitle="Registra tu alojamiento", icon="magnifier.png"},
-                new Menu{Page=new Feed(), MenuTitle="Invita a un amigo a ser anfitrion", icon="magnifier.png"},
-                new Menu{Page=new Feed(), MenuTitle="Mis códigos de descuento", icon="magnifier.png"}
+                new Menu{Page=new Feed(), MenuTitle="Reservas", icon="cardtravel.png"},
+                new Menu{Page=new Feed(), MenuTitle="Ofertas", icon="world.png"},
+                new Menu{Page=new Feed(), MenuTitle="Listas", icon="like.png"},
+                new Menu{Page=new Feed(), MenuTitle="Alquiler de coches", icon="car.png"},
+                new Menu{Page=new Feed(), MenuTitle="My reviews", icon="review.png"},
+                new Menu{Page=new Feed(), MenuTitle="Reservar taxi eropuerto", icon="plane.png"},
+                new Menu{Page=new Feed(), MenuTitle="Comunidades de viajeros", icon="com.png"},
+                new Menu{Page=new Feed(), MenuTitle="Articulos de viajes", icon="articles.png"},
+                new Menu{Page=new Feed(), MenuTitle="Registra tu alojamiento", icon="plus.png"},
+                new Menu{Page=new Feed(), MenuTitle="Invita a un amigo a ser anfitrion", icon="house.png"},
+                new Menu{Page=new Feed(), MenuTitle="Mis códigos de descuento", icon="tag.png"}
             };
             ListMenu.ItemsSource = menus;
 
