@@ -21,16 +21,16 @@ namespace BookingAppClone
             List<Menu> menus = new List<Menu>
             {
                 new Menu{Page=new Feed(), MenuTitle="Reservas", icon="cardtravel.png"},
-                new Menu{Page=new Feed(), MenuTitle="Ofertas", icon="world.png"},
-                new Menu{Page=new Feed(), MenuTitle="Listas", icon="like.png"},
-                new Menu{Page=new Feed(), MenuTitle="Alquiler de coches", icon="car.png"},
-                new Menu{Page=new Feed(), MenuTitle="My reviews", icon="review.png"},
-                new Menu{Page=new Feed(), MenuTitle="Reservar taxi eropuerto", icon="plane.png"},
-                new Menu{Page=new Feed(), MenuTitle="Comunidades de viajeros", icon="com.png"},
-                new Menu{Page=new Feed(), MenuTitle="Articulos de viajes", icon="articles.png"},
-                new Menu{Page=new Feed(), MenuTitle="Registra tu alojamiento", icon="plus.png"},
-                new Menu{Page=new Feed(), MenuTitle="Invita a un amigo a ser anfitrion", icon="house.png"},
-                new Menu{Page=new Feed(), MenuTitle="Mis códigos de descuento", icon="tag.png"}
+                new Menu{Page=new Page404(), MenuTitle="Ofertas", icon="world.png"},
+                new Menu{Page=new Page404(), MenuTitle="Listas", icon="like.png"},
+                new Menu{Page=new Page404(), MenuTitle="Alquiler de coches", icon="car.png"},
+                new Menu{Page=new Page404(), MenuTitle="My reviews", icon="review.png"},
+                new Menu{Page=new Page404(), MenuTitle="Reservar taxi eropuerto", icon="plane.png"},
+                new Menu{Page=new Page404(), MenuTitle="Comunidades de viajeros", icon="com.png"},
+                new Menu{Page=new Page404(), MenuTitle="Articulos de viajes", icon="articles.png"},
+                new Menu{Page=new Page404(), MenuTitle="Registra tu alojamiento", icon="plus.png"},
+                new Menu{Page=new Page404(), MenuTitle="Invita a un amigo a ser anfitrion", icon="house.png"},
+                new Menu{Page=new Page404(), MenuTitle="Mis códigos de descuento", icon="tag.png"}
             };
             ListMenu.ItemsSource = menus;
 
