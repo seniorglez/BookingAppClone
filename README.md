@@ -1,11 +1,11 @@
 # BookingAppClone
 
-Just a clone of the gui with xamarin forms
+Just a clone of the gui with xamarin forms. I´m just starting with Xamarin so it's not an example of good coding practices.
 
 
 ## Getting Started
 
-Just clone the proyect on your machine and open it with Visual Studio. 
+Just clone the proyect on your machine and open the solution with Visual Studio. 
 
 
 ## Contributing
@@ -39,4 +39,4 @@ along with BookingAppClone. If not, see [https://www.gnu.org/licenses/](https://
 
 The icons I use are under the [Apache License 2.0](https://github.com/google/material-design-icons/blob/master/LICENSE)
 
-Get the full icon pack [here](https://www.iconfinder.com/iconsets/google-material-design-3-0) to use it on you projects.
+Get the full icon pack [here](https://www.iconfinder.com/iconsets/google-material-design-3-0) to use it on you projects. You can also check the [original repository](https://github.com/google/material-design-icons) from google.
