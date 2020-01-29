@@ -7,26 +7,31 @@
             <Label Text="del alojamiento" FontSize="24" HorizontalOptions="Start" TextColor="Black" Margin="18,0,0,0"></Label>
 
             <StackLayout Margin="18,18,18,143" BackgroundColor="#ffcc00">
-            <TableView Intent="Form" BackgroundColor="White" Margin="2">
-                <TableRoot>
-                    <TableSection>
-                        <EntryCell Text="Pionyang" LabelColor="White" Label="🔎"/>
-                        <ViewCell>
-                            <StackLayout Orientation="Horizontal"><Label Text="🗓" Margin="16,0" VerticalOptions="Center"/><DatePicker/><Label Text="   "/><DatePicker/></StackLayout>
-                        </ViewCell>
-                        <EntryCell Text="1 habitación . 2 adultos . 0 niños" LabelColor="White" Label="🤷🏻‍♂️"/>
-                        <ViewCell>
-                            <Button x:Name="SearchButton" Text="Buscar" Clicked="SearchButton_Clicked" BackgroundColor="#33ccff" TextColor="White"/>
-                        </ViewCell>
-                        <SwitchCell Text="Viajo por trabajo"/>
-                    </TableSection>
-                </TableRoot>
-            </TableView>
+                <TableView Intent="Form" BackgroundColor="White" Margin="2">
+                    <TableRoot>
+                        <TableSection>
+                            <EntryCell Text="Pionyang" LabelColor="White" Label="🔎" x:Name="CityEntry"/>
+                            <ViewCell>
+                                <StackLayout Orientation="Horizontal">
+                                    <Label Text="🗓" Margin="16,0" VerticalOptions="Center"/>
+                                    <DatePicker x:Name="DatePikerA"/>
+                                    <Label Text="   "/>
+                                    <DatePicker x:Name="DatePikerB"/>
+                                </StackLayout>
+                            </ViewCell>
+                            <EntryCell Text="1 habitación . 2 adultos . 0 niños" LabelColor="White" Label="🤷🏻‍♂️"/>
+                            <ViewCell>
+                                <Button x:Name="SearchButton" Text="Buscar" Clicked="SearchButton_Clicked" BackgroundColor="#33ccff" TextColor="White"/>
+                            </ViewCell>
+                            <SwitchCell Text="Viajo por trabajo"/>
+                        </TableSection>
+                    </TableRoot>
+                </TableView>
             </StackLayout>
         </StackLayout>
     </ContentPage>
-  <ContentPage Title="🚙 Alquiler de coches">
+    <ContentPage Title="🚙 Alquiler de coches">
         <Label Text="Not implemented jet"></Label>
     </ContentPage>
-    
+
 </TabbedPage>

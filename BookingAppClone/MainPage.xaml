@@ -2,11 +2,11 @@
 <MasterDetailPage xmlns="http://xamarin.com/schemas/2014/forms"
                   xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
                   x:Class="BookingAppClone.MainPage"
-                  Title="Detail">
-<MasterDetailPage.Master>
-   <ContentPage Title="Menu" BackgroundColor="Azure" Padding="0,40,0,0" >
-       <StackLayout>
-   <StackLayout Padding="8,8,8,8" Orientation="Horizontal">
+                  Title="Booking.com">
+    <MasterDetailPage.Master>
+        <ContentPage Title="Menu" BackgroundColor="Azure" Padding="0,40,0,0" >
+            <StackLayout>
+                <StackLayout Padding="8,8,8,8" Orientation="Horizontal">
                     <Frame CornerRadius="27.5" Padding="0" IsClippedToBounds="True">
                         <Image Source="user.png" HeightRequest="55" WidthRequest="55"/>
                     </Frame>
@@ -16,17 +16,17 @@
                         <Label Text="El que la parte, el humilde" TextColor="#0046c3" FontAttributes="Bold"/>
                     </StackLayout>
                 </StackLayout>
-            <ListView BackgroundColor="White" x:Name="ListMenu" ItemSelected="ItemSelectedListMenu">
-                <ListView.ItemTemplate>
-                    <DataTemplate>
-                        <ImageCell TextColor="Black" DetailColor="Black" Height="25"
+                <ListView BackgroundColor="White" x:Name="ListMenu" ItemSelected="ItemSelectedListMenu">
+                    <ListView.ItemTemplate>
+                        <DataTemplate>
+                            <ImageCell TextColor="Black" DetailColor="Black" Height="25"
                                    Text="{Binding MenuTitle}"
                                    Detail="{Binding MenuDetail}"
                                    ImageSource="{Binding icon}"/>
-                    </DataTemplate>
-                </ListView.ItemTemplate>
-            </ListView>
-       </StackLayout>
-   </ContentPage >
-</MasterDetailPage.Master>
+                        </DataTemplate>
+                    </ListView.ItemTemplate>
+                </ListView>
+            </StackLayout>
+        </ContentPage >
+    </MasterDetailPage.Master>
 </MasterDetailPage>

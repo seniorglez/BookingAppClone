@@ -1,5 +1,6 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="BookingAppClone.HotelView">
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="BookingAppClone.HotelView"
+             Title="Hotel Pyugyuong">
     <ContentPage.Content>
 
 
@@ -30,17 +31,16 @@
                     <Image Source="https://amp.businessinsider.com/images/57c9ec5ab996eb94008b5ff2-750-563.jpg" Grid.Column="1" Aspect="Fill"></Image>
                     <Image Source="https://www.nknews.org/wp-content/uploads/2016/05/4630594767_9d0feb1692_b_pyongyang-skyline.jpg" Grid.Column="2" Aspect="Fill"></Image>
                 </Grid>
-
             </Grid>
             <StackLayout Padding="20">
-            <StackLayout Orientation="Horizontal" Margin="5,14,0,0">
-                <Label Text="Hotel Pyugyong" FontSize="22" HorizontalOptions="Start" FontAttributes="Bold" TextColor="Black" />
-                <Frame CornerRadius="7" Padding="0" IsClippedToBounds="True" HorizontalOptions="End" Margin="150,7,7,7">
-                    <Label Text="10,0" BackgroundColor="BlueViolet" TextColor="White" Padding="4" FontSize="18" FontAttributes="Bold"/>
-                </Frame>
-            </StackLayout>
-            <Label Text="⭐️⭐️⭐️⭐️⭐️"/>
+                <StackLayout Orientation="Horizontal" Margin="5,14,0,0">
+                    <Label Text="Hotel Pyugyong" FontSize="22" HorizontalOptions="Start" FontAttributes="Bold" TextColor="Black" />
+                    <Frame CornerRadius="7" Padding="0" IsClippedToBounds="True" HorizontalOptions="End" Margin="150,7,7,7">
+                        <Label Text="10,0" BackgroundColor="BlueViolet" TextColor="White" Padding="4" FontSize="18" FontAttributes="Bold"/>
+                    </Frame>
                 </StackLayout>
+                <Label Text="⭐️⭐️⭐️⭐️⭐️"/>
+            </StackLayout>
             <Button Text="Elige habitación" BackgroundColor="Blue" TextColor="White" Clicked="Button_Clicked" Margin="5"/>
 
         </StackLayout>

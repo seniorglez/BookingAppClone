@@ -6,20 +6,12 @@ namespace BookingAppClone
     public class Menu
     {
         public String MenuTitle
-        {
-            get;
-            set;
-        }
+        {get;set;}
 
         public ImageSource icon
-        {
-            get;
-            set;
-        }
+        {get;set;}
+
         public Page Page
-        {
-            get;
-            set;
-        }
+        {get;set;}
     }
 }
