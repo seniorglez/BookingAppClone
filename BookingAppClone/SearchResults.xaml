@@ -10,10 +10,10 @@
             <StackLayout BackgroundColor="White" Margin="5" Padding="35,14,0,17" Orientation="Horizontal">
                 <StackLayout Margin="0,0,95,0">
                     <Label Text="📍 Pionyang" FontSize="22" TextColor="Black" FontAttributes="Bold"/>
-                    <Label Text="2 adultos"/>
+                    <Label Text="👯‍♂️ 2 adultos"/>
                     <Label Text="5 noches"/>
-                    <Label Text="(vie.,21 febrero - mié., 26 febrero)"/>
-                    <Label Text="Viaje de trabajo"/>
+                    <Label Text="🗓(vie.,21 febrero - mié., 26 febrero)"/>
+                    <Label Text="💼 Viaje de trabajo"/>
                 </StackLayout>
                 <Label Text="🔎" VerticalOptions="Center" HorizontalOptions="End" FontSize="35"></Label>
 
@@ -31,10 +31,13 @@
                 </ListView>-->
             <ScrollView>
                 <StackLayout BackgroundColor="White" Margin="5" Padding="0" Orientation="Horizontal">
-                    <ImageButton Source="https://c1.staticflickr.com/9/8177/8006545743_8dbfa32b02_b.jpg"
+                    <ImageButton Source="https://c1.staticflickr.com/9/8177/8006545743_8dbfa32b02_b.jpg" Aspect="Fill"
                                  HorizontalOptions="Start" VerticalOptions="FillAndExpand" WidthRequest="170" Clicked="ImageButton_Clicked"/>
                     <StackLayout>
-                        <Label Text="Hotel Pyugyong" FontSize="22" HorizontalOptions="Start" FontAttributes="Bold" TextColor="Black" Margin="5,14,0,0"/>
+                        <StackLayout Orientation="Horizontal"  Margin="0,14,0,0">
+                            <Label Text="Hotel Pyugyong" FontSize="22" HorizontalOptions="Start" FontAttributes="Bold" TextColor="Black"/>
+                            <Label Text="❤️"  Margin="35,4,0,0"></Label>
+                       </StackLayout>
                         <Label Text="⭐️⭐️⭐️⭐️⭐️"/>
                         <StackLayout Orientation="Horizontal">
                             <Frame CornerRadius="10" Padding="0" IsClippedToBounds="True" >
@@ -43,9 +46,12 @@
                             <Label Text="Excelente"/>
                         </StackLayout>
                         <Label Text="📍 Pionyang * A 1,6 km del centro"/>
+                        <StackLayout Orientation="Horizontal">
                         <Frame CornerRadius="10" Padding="0" IsClippedToBounds="True">
                             <Label Text="Precio para móvil" BackgroundColor="#ff9900" TextColor="White" FontSize="16" Padding="7"/>
                         </Frame>
+                            <Label Text=" "/>
+                        </StackLayout>
                         <Label Text="Habitación Doble Deluxe - 2" HorizontalOptions="End"/>
                         <Label Text="camas" HorizontalOptions="End"/>
                         <Label Text="€ 525" FontSize="24" TextColor="Black" FontAttributes="Bold" HorizontalOptions="End"/>
