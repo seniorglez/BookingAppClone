@@ -25,16 +25,16 @@
             <Frame CornerRadius="10" Padding="0" IsClippedToBounds="True" HorizontalOptions="End">
                 <Label Text="Precio para móvil" BackgroundColor="#ff9900" TextColor="White" FontSize="16" Padding="7"/>
             </Frame>
-        <StackLayout Orientation="Horizontal" Margin="10">
-            <StackLayout>
-                <Label  Text="Capacidad para 0 de 2" FontSize="18" TextColor="Black" FontAttributes="Bold"/>
-                <Label Text="adultos"/>
+            <StackLayout Orientation="Horizontal" Margin="10">
+                <StackLayout>
+                    <Label  Text="Capacidad para 0 de 2" FontSize="18" TextColor="Black" FontAttributes="Bold"/>
+                    <Label Text="adultos"/>
+                </StackLayout>
+
+                <Button Text="Reserva Ahora" BackgroundColor="Blue" TextColor="White" Padding="35,0,35,0" Clicked="Button_Clicked"  HorizontalOptions="End"/>
             </StackLayout>
-            
-            <Button Text="Reserva Ahora" BackgroundColor="Blue" TextColor="White" Padding="35,0,35,0" Clicked="Button_Clicked"  HorizontalOptions="End"/>
-        </StackLayout>
-            
-            
+
+
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>

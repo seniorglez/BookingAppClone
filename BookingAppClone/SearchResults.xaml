@@ -39,7 +39,7 @@
                         <StackLayout Orientation="Horizontal"  Margin="0,14,0,0">
                             <Label Text="Hotel Pyugyong" FontSize="22" HorizontalOptions="Start" FontAttributes="Bold" TextColor="Black"/>
                             <Label Text="❤️"  Margin="35,4,0,0"></Label>
-                       </StackLayout>
+                        </StackLayout>
                         <Label Text="⭐️⭐️⭐️⭐️⭐️"/>
                         <StackLayout Orientation="Horizontal">
                             <Frame CornerRadius="10" Padding="0" IsClippedToBounds="True" >
@@ -49,9 +49,9 @@
                         </StackLayout>
                         <Label Text="📍 Pionyang * A 1,6 km del centro"/>
                         <StackLayout Orientation="Horizontal">
-                        <Frame CornerRadius="10" Padding="0" IsClippedToBounds="True">
-                            <Label Text="Precio para móvil" BackgroundColor="#ff9900" TextColor="White" FontSize="16" Padding="7"/>
-                        </Frame>
+                            <Frame CornerRadius="10" Padding="0" IsClippedToBounds="True">
+                                <Label Text="Precio para móvil" BackgroundColor="#ff9900" TextColor="White" FontSize="16" Padding="7"/>
+                            </Frame>
                             <Label Text=" "/>
                         </StackLayout>
                         <Label Text="Habitación Doble Deluxe - 2" HorizontalOptions="End"/>

@@ -6,9 +6,9 @@
             <Label Text="correofalso@gmail.com"/>
             <Label Text="España"/>
             <Label Text="+34 182 731 022"/>
-            
+
             <Button Text="Confirmar" BackgroundColor="Blue" TextColor="White"  Margin="5"/>
-           
-            </StackLayout>
+
+        </StackLayout>
     </ContentPage.Content>
 </ContentPage>
