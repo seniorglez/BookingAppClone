@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="BookingAppClone.RoomPage">
+    <ContentPage.Content>
+        <StackLayout Margin="5" Padding="10">
+            <Label Text="Habitación Doble Deluxe -2" TextColor="Blue" FontSize="17" FontAttributes="Bold"/>
+            <Label Text="camas" TextColor="Blue" FontSize="17" FontAttributes="Bold"/>
+            <Label Text="Precio para 👯‍♂️"/>
+            <StackLayout Orientation="Horizontal">
+                <Label Text="Cama:" FontAttributes="Bold"/>
+                <Label Text="2 camas individuales 🛏🛏"/>
+            </StackLayout>
+            <Label TextColor="Green" Text="✔ Cancelación gratis hasta el 18 de febrero" FontSize="16" />
+            <Label Text="⎋ Paga en el alojamiento" FontSize="16" />
+            <Label TextColor="Black" Text="☕ Desayuno incluido" FontSize="16" FontAttributes="Bold" />
+            <Label Text=""/>
+            <Label Text="👩🏽‍💻 WIFI gratis 🛀 Bañera 🧊 Aire acondicionado"/>
+            <Label Text="🚿 Bañera o ducha"/>
+            <Label Text="💡 Nota: esta habitación es  más grande que la mayoría en Pionyang"/>
+            <Label Text="¡Solo quedan 2 habitación(es) en Booking.com!"/>
+            <Label Text="🍷 Mejor precio con cancelación gratis"/>
+            <Label HorizontalOptions="End" Text="Precio para 5 noches" FontSize="16"/>
+            <Label HorizontalOptions="End" Text="€ 525,28 ℹ" FontSize="26" TextColor="Black" FontAttributes="Bold"/>
+            <Label HorizontalOptions="End" Text="incluye impuestos y cargos" FontSize="16"/>
+
+            <Frame CornerRadius="10" Padding="0" IsClippedToBounds="True" HorizontalOptions="End">
+                <Label Text="Precio para móvil" BackgroundColor="#ff9900" TextColor="White" FontSize="16" Padding="7"/>
+            </Frame>
+        <StackLayout Orientation="Horizontal" Margin="10">
+            <StackLayout>
+                <Label  Text="Capacidad para 0 de 2" FontSize="18" TextColor="Black" FontAttributes="Bold"/>
+                <Label Text="adultos"/>
+            </StackLayout>
+            
+            <Button Text="Reserva Ahora" BackgroundColor="Blue" TextColor="White" Padding="35,0,35,0" Clicked="Button_Clicked"  HorizontalOptions="End"/>
+        </StackLayout>
+            
+            
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

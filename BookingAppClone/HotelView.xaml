@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="BookingAppClone.HotelView">
+    <ContentPage.Content>
+
+
+        <StackLayout Orientation="Vertical">
+
+            <Grid>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="150"></RowDefinition>
+                    <RowDefinition Height="150"></RowDefinition>
+                </Grid.RowDefinitions>
+                <Grid Grid.Row="0">
+
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition></ColumnDefinition>
+                        <ColumnDefinition></ColumnDefinition>
+                    </Grid.ColumnDefinitions>
+                    <Image Source="https://www.changesinlongitude.com/wp-content/uploads/2013/12/Ryugyong-Hotel-Pyongyang-North-Korea-Milne.jpg" Grid.Column="0" Aspect="Fill"></Image>
+                    <Image Source="https://twt-thumbs.washtimes.com/media/image/2018/12/30/AP_18363328513295_c0-95-5000-3010_s885x516.jpg?3e786747df35ab5086cbb002ae7e1b863065e7f3" Grid.Column="1" Aspect="Fill"></Image>
+                </Grid>
+                <Grid Grid.Row="1">
+
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition></ColumnDefinition>
+                        <ColumnDefinition></ColumnDefinition>
+                        <ColumnDefinition></ColumnDefinition>
+                    </Grid.ColumnDefinitions>
+                    <Image Source="https://i.pinimg.com/originals/92/25/e3/9225e36635920bb5f7c1aeec731c99c8.jpg" Grid.Column="0" Aspect="Fill"></Image>
+                    <Image Source="https://amp.businessinsider.com/images/57c9ec5ab996eb94008b5ff2-750-563.jpg" Grid.Column="1" Aspect="Fill"></Image>
+                    <Image Source="https://www.nknews.org/wp-content/uploads/2016/05/4630594767_9d0feb1692_b_pyongyang-skyline.jpg" Grid.Column="2" Aspect="Fill"></Image>
+                </Grid>
+
+            </Grid>
+            <StackLayout Padding="20">
+            <StackLayout Orientation="Horizontal" Margin="5,14,0,0">
+                <Label Text="Hotel Pyugyong" FontSize="22" HorizontalOptions="Start" FontAttributes="Bold" TextColor="Black" />
+                <Frame CornerRadius="7" Padding="0" IsClippedToBounds="True" HorizontalOptions="End" Margin="150,7,7,7">
+                    <Label Text="10,0" BackgroundColor="BlueViolet" TextColor="White" Padding="4" FontSize="18" FontAttributes="Bold"/>
+                </Frame>
+            </StackLayout>
+            <Label Text="⭐️⭐️⭐️⭐️⭐️"/>
+                </StackLayout>
+            <Button Text="Elige habitación" BackgroundColor="Blue" TextColor="White" Clicked="Button_Clicked" Margin="5"/>
+
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
