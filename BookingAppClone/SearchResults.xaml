@@ -1,5 +1,6 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="BookingAppClone.SearchResults">
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="BookingAppClone.SearchResults"
+             Title="{Binding City}">
     <ContentPage.Content>
         <StackLayout BackgroundColor="LightGray">
             <StackLayout Orientation="Horizontal">
@@ -9,7 +10,8 @@
             </StackLayout>
             <StackLayout BackgroundColor="White" Margin="5" Padding="35,14,0,17" Orientation="Horizontal">
                 <StackLayout Margin="0,0,95,0">
-                    <Label Text="📍 Pionyang" FontSize="22" TextColor="Black" FontAttributes="Bold"/>
+                    <Label Text="{Binding City,
+                        StringFormat='📍{0}'}" FontSize="22" TextColor="Black" FontAttributes="Bold"/>
                     <Label Text="👯‍♂️ 2 adultos"/>
                     <Label Text="5 noches"/>
                     <Label Text="🗓(vie.,21 febrero - mié., 26 febrero)"/>

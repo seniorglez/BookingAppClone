@@ -10,9 +10,9 @@
             <TableView Intent="Form" BackgroundColor="White" Margin="2">
                 <TableRoot>
                     <TableSection>
-                        <EntryCell Text="Pionyang" LabelColor="White" Label="🔎"/>
+                        <EntryCell Text="Pionyang" LabelColor="White" Label="🔎" x:Name="CityEntry"/>
                         <ViewCell>
-                            <StackLayout Orientation="Horizontal"><Label Text="🗓" Margin="16,0" VerticalOptions="Center"/><DatePicker/><Label Text="   "/><DatePicker/></StackLayout>
+                            <StackLayout Orientation="Horizontal"><Label Text="🗓" Margin="16,0" VerticalOptions="Center"/><DatePicker x:Name="DatePikerA"/><Label Text="   "/><DatePicker x:Name="DatePikerB"/></StackLayout>
                         </ViewCell>
                         <EntryCell Text="1 habitación . 2 adultos . 0 niños" LabelColor="White" Label="🤷🏻‍♂️"/>
                         <ViewCell>
