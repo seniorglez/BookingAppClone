@@ -1,6 +1,6 @@
 # BookingAppClone
 
-Just a clone of the gui with xamarin forms. I´m just starting with Xamarin so it's not an example of good coding practices.
+Just a clone of the gui with xamarin forms. I'm just starting with Xamarin so it's not an example of good coding practices.
 
 
 ## Getting Started
