@@ -11,5 +11,10 @@ namespace BookingAppClone
         {
             InitializeComponent();
         }
+
+        async void Button_Clicked(System.Object sender, System.EventArgs e)
+        {
+            await DisplayAlert("Hey", "Acabas de confirmar tu reserva, muchas gracias","ok") ;
+        }
     }
 }
